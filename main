@@ -1,0 +1,12 @@
+enum Levels{
+  LOW,
+  MEDIUM,
+  FAST
+}
+public class Main { 
+  public static void main(String[] args) { 
+    for (Levels myVar : Levels.values()) {
+      System.out.println(myVar);
+    }
+  } 
+}
